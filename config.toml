@@ -1,0 +1,55 @@
+baseurl         = "http://localhost:1313"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "MongoDB Developer Relations"
+  subtitle    = "Improving the lives of developers around the world!"
+
+  cover       = "img/background.jpeg"
+  description = "MongoDB Developer Relations Blog"
+  metaDescription = "MongoDB Developer Relations Blog"
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "mongodb"
+  fbName = "mongodb"
+  githubName = "mongodb-developer"
+
+  logo = ""
+  orgName = "EM"
+  orgWebsite = "https://www.mongodb.com"
+  orgDescription = "Here is a description placeholder for your org"
+
+  author = "ML"
+  authorAvatar = "img/ghost-icon.png"
+  authorLocation = "Bandung, ID"
+  authorWebsite = "https://eueung.github.io"
+  authorDescription = "Developer Relations"
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Projects"
+  url = "/tags/project/"
+  weight = 100
+
+[[menu.main]]
+  name = "Events"
+  url = "/categories/events/"
+  weight = 99
